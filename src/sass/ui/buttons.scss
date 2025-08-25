@@ -1,0 +1,8 @@
+@use '/src/sass/base/mixins.scss'as *;
+
+.button-primary {
+    @include button;
+    background-color: transparent;
+    width: 217px;
+    height: 64px;
+}
