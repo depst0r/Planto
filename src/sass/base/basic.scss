@@ -31,6 +31,10 @@ img {
 }
 
 html {
-    font-family: 'Inter Variable';
+    font-family: 'Inter Variable' !important;
     scroll-behavior: smooth;
+}
+
+body {
+    background-color: #171F12;
 }
