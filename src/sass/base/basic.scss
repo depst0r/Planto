@@ -37,4 +37,15 @@ html {
 
 body {
     background-color: #171F12;
+    max-width: 1920px;
+}
+
+.container {
+    max-width: 1920px;
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        padding: 0 70px;
+    }
 }
