@@ -50,6 +50,20 @@
 
     .dropdown-item {
         color: rgba(255, 255, 255, 0.75);
-        ;
     }
+
+    .nav-item {
+        cursor: pointer;
+    }
+
+    .dropdown-menu {
+
+        a {
+            &:hover {
+                background-color: rgba(1, 112, 25, 0.26);
+                border-radius: 20px;
+            }
+        }
+    }
+
 }
