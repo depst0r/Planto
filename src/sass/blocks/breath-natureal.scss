@@ -26,4 +26,30 @@
         }
     }
 
+    &__demo {
+        font-family: 'Inter Variable' !important;
+        font-weight: 400;
+        font-size: 20px;
+        color: $white;
+    }
+
+    .carousel {
+        border-radius: 77px;
+        background-color: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(25px);
+        box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.25);
+        margin-top: 40px;
+
+        .button-primary {
+            padding: 5px;
+            width: 50%;
+            height: 100%;
+        }
+
+        img {
+            padding-bottom: 20px;
+        }
+    }
+
+
 }

@@ -16,3 +16,10 @@
     font-size: 18px;
     color: $white;
 }
+
+@mixin text {
+    font-family: 'Inter Variable' !important;
+    font-weight: 400;
+    font-size: 23px;
+    color: $white-255;
+}
