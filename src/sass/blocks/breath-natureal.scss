@@ -1,0 +1,29 @@
+@use '/src/sass/base/variables.scss'as *;
+
+.breath-natureal {
+    padding-top: 40px;
+    background: url('/src/img/bg/nagy-arnold-X_IvVDuHvDQ-unsplash\ 1.png')no-repeat;
+
+    &__subtitle {
+        font-family: 'Inter Variable' !important;
+        font-weight: 500;
+        font-size: 13px;
+        color: $white;
+        opacity: 0.75;
+    }
+
+    &__buttons {
+        padding-top: 20px;
+
+        &-play {
+            border-radius: 100%;
+            stroke-width: 2px;
+            stroke: $white;
+            background: transparent;
+            width: 64px;
+            height: 64px;
+            border: 0.125rem solid $white;
+        }
+    }
+
+}

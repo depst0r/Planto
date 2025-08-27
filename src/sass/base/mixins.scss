@@ -1,18 +1,18 @@
 @use '/src/sass/base/variables.scss'as *;
 
 @mixin title {
+    font-family: 'Inter Variable' !important;
     font-weight: 600;
     font-size: normal;
     color: $white;
 }
 
 @mixin button {
+    font-family: 'Inter Variable' !important;
     border: 2px solid $white;
     border-radius: 12px;
-    padding: 5px;
     opacity: 0.75;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 18px;
     color: $white;
-
 }

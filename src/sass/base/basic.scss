@@ -28,6 +28,7 @@ h5 {
 img {
     display: block;
     max-inline-size: 100%;
+    -webkit-user-drag: none;
 }
 
 html {
@@ -38,6 +39,14 @@ html {
 body {
     background-color: #171F12;
     max-width: 1920px;
+
+    &::selection {
+        color: rgba(59, 177, 13, 0.555);
+    }
+}
+
+a {
+    -webkit-user-drag: none;
 }
 
 .container {

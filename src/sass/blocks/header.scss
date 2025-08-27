@@ -1,9 +1,11 @@
+@use '/src/sass/base/variables.scss'as *;
+
 .header {
     &__brand {
         font-family: 'Inter Variable';
         font-weight: 900;
         font-size: 28px;
-        color: rgba(255, 255, 255, 0.75);
+        color: $white-255;
         text-transform: uppercase;
     }
 
@@ -14,7 +16,7 @@
         &::before {
             content: '';
             display: block;
-            background-color: rgba(255, 255, 255, 0.75);
+            background-color: $white-255;
             width: 20px;
             height: 3px;
         }
@@ -22,7 +24,7 @@
         &::after {
             content: '';
             display: block;
-            background-color: rgba(255, 255, 255, 0.75);
+            background-color: $white-255;
             width: 15px;
             height: 3px;
         }
@@ -32,7 +34,7 @@
         font-family: 'Inter Variable';
         font-weight: 500;
         font-size: 24px;
-        color: rgba(255, 255, 255, 0.75);
+        color: $white-255;
     }
 
     .show {
@@ -49,7 +51,7 @@
     }
 
     .dropdown-item {
-        color: rgba(255, 255, 255, 0.75);
+        color: $white-255;
     }
 
     .nav-item {
