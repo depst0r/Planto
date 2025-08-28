@@ -1,5 +1,21 @@
 .plants {
     padding-top: 50px;
+    position: relative;
+
+    &__cards {
+        margin-top: 40px;
+    }
+
+    &__card {
+        // border-radius: 151px;
+        backdrop-filter: blur(22.299999237060547px);
+        background: rgba(255, 255, 255, 0.05);
+        padding: 20px;
+    }
+
+    span {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1440px) {
