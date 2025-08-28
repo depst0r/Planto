@@ -11,7 +11,6 @@
         backdrop-filter: blur(22.299999237060547px);
         background: rgba(255, 255, 255, 0.05);
         padding: 20px;
-        max-height: 546px;
     }
 
     span {
@@ -22,6 +21,18 @@
         width: 100%;
         padding: 10px;
         height: 100%;
+    }
+}
+
+@media screen and (min-width:990px) {
+    .plants {
+        &__card {
+            &-column {
+                .card-img {
+                    margin-top: -140px;
+                }
+            }
+        }
     }
 }
 
