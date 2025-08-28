@@ -30,6 +30,8 @@
             &-column {
                 .card-img {
                     margin-top: -140px;
+                    max-height: 609px;
+                    max-width: 578px;
                 }
             }
         }
@@ -39,5 +41,19 @@
 @media screen and (min-width: 1440px) {
     .plants {
         padding-top: 100px;
+
+        &__cards {
+            margin-top: 150px;
+        }
+
+        &__card-title {
+            flex-direction: column;
+            text-align: start;
+            align-items: start;
+
+            span {
+                text-align: start;
+            }
+        }
     }
 }
