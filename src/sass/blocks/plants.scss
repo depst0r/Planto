@@ -7,14 +7,21 @@
     }
 
     &__card {
-        // border-radius: 151px;
+        border-radius: 51px;
         backdrop-filter: blur(22.299999237060547px);
         background: rgba(255, 255, 255, 0.05);
         padding: 20px;
+        max-height: 546px;
     }
 
     span {
         text-align: center;
+    }
+
+    .button-primary {
+        width: 100%;
+        padding: 10px;
+        height: 100%;
     }
 }
 
