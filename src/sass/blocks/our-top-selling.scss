@@ -1,0 +1,31 @@
+.our-top-selling {
+    padding-top: 50px;
+
+    &__column {
+        border-radius: 77px;
+        background-color: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(25px);
+        box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.25);
+        padding: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .our-top-selling {
+        &__column {
+            padding: 35px;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .our-top-selling {
+        &__column {
+            padding: 55px;
+
+            &-img {
+                margin-top: -40%;
+            }
+        }
+    }
+}

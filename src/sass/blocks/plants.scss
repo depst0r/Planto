@@ -1,5 +1,5 @@
 .plants {
-    padding-top: 50px;
+    padding: 50px 0 50px 0;
     position: relative;
 
     &__cards {
@@ -47,7 +47,7 @@
 
 @media screen and (min-width: 1440px) {
     .plants {
-        padding-top: 100px;
+        padding: 100px 0 100px 0;
 
         &__card {
             &:nth-child(2) {
@@ -57,7 +57,7 @@
 
         &__cards {
             margin-top: 150px;
-            gap: 136px;
+            gap: 170px;
         }
 
         &__card-title {
