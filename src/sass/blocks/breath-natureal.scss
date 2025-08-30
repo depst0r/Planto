@@ -100,7 +100,6 @@
         .review__user-comment {
             opacity: 0.75;
             font-size: 14px;
-            font-family: 'Inter Variable' !important;
             font-weight: 400;
             color: $white-255;
         }
@@ -124,11 +123,7 @@
         }
 
         .review__user-comment {
-            opacity: 0.75;
             font-size: 17px;
-            font-family: 'Inter Variable' !important;
-            font-weight: 400;
-            color: $white-255;
         }
 
         &__subtitle {
