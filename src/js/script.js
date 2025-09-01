@@ -7,7 +7,7 @@ import '/src/sass/style.scss';
 
 gsap.to(review, {
     duration: 2,
-    x: 300,
+    y: -50,
     opacity: 0.5,
     ease: 'power2.inOut',
     repeat: -1,
