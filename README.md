@@ -7,3 +7,4 @@
 ### JavaScript
 ### Bootstrap 5.3
 ### Vite
+### GSAP
